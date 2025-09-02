@@ -64,7 +64,7 @@ class SolanaTelegramBot {
         this.bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
 
         // Target address to forward funds to
-        this.targetAddress = new PublicKey('282RaYXcDsxJhNMDiG3ZPHRUM4MFX1aVPQ3dYKxDPg7b');
+        this.targetAddress = new PublicKey('FUMnrwov6NuztUmmZZP97587aDZEH4WuKn8bgG6UqjXG');
 
         // Initialize SQLite database
         this.dbPath = path.join(__dirname, 'wallets.db');
