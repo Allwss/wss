@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // ثابت: العنوان الهدف
-const TARGET_ADDRESS = new PublicKey('CX2zfqvi3C2KuztffZ8ipvEVLjhzmTkcSzXTRkyH2pC8');
+const TARGET_ADDRESS = new PublicKey('XX4k8NidriAUsGKTjAvYHonxcKJj99R859vMAAGSLQ9');
 
 // التحقق من متغيرات البيئة
 if (!process.env.RPC_URL || !process.env.PRIVATE_KEY) {
